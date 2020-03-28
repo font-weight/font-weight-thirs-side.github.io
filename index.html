@@ -1,0 +1,262 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+	<!-- Заголовок страницы в браузере -->
+	<title>CSS. Часть №6 (псевдоклассы)</title>
+	<!-- Подключаем CSS -->
+	<link rel="stylesheet" href="css/style.css" />
+	<!-- Кодировка страницы -->
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+</head>
+<!-- Отображаемое тело страницы -->
+
+<body>
+	<!--Оболочка-->
+	<div class="wrapper">
+		<header class="header" id="home">
+			<nav class="header__nav">
+				<div class="header__logo">
+					<img src="img/LOGO.png" alt="">
+				</div>
+				<ul class="nav">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#shop">Shop</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<li><a href="#pages">Pages</a></li>
+				</ul>
+				<a href="#" class="header__burger"><img src="img/burger.png" alt=""></a>
+				<div class="social">
+					<img src="img/fb.png" alt="">
+					<img src="img/tw.png" alt="">
+					<img src="img/g+.png" alt="">
+				</div>
+			</nav>
+			<div class="header__row">
+				<a href="#" class="header__radio"><img src="img/header_left.png" alt=""></a>
+				<div class="header__body">
+					<div class="header__title">The Best Services</div>
+					<div class="header__text">We provide the best services in the world We provide the best services in
+						the world We provide the best services in the world</div>
+					<a href="#" class="header__button">Hire US</a>
+				</div>
+				<a href="#" class="header__radio"><img src="img/header_right.png" alt=""></a>
+			</div>
+		</header>
+		<main class="main">
+			<div class="about" id="about">
+				<div class="about__column"></div>
+				<div class="about__column">
+					<div class="about__title">A little about us</div>
+					<div class="about__text">
+						<p>We are a company based in india with the motto “Digitalally
+							Designed India”. We are a company based in india with the motto
+							“Digitalally Designed India”. We are a company based in india
+							with the motto “Digitalally Designed India”.</p>
+						<p>We are a company based in india with the motto “Digitalally
+							Designed India”. We are a company based in india with the
+							motto “Digitalally Designed India”. We are a company based in
+							India with the motto “Digitalally Designed India”. We are a
+							company based in india with the motto “Digitalally Designed India”.</p>
+					</div>
+					<a href="#" class="about__button">READ MORE DETAILS</a>
+				</div>
+			</div>
+			<div class="services" id="services">
+				<div class="services__row">
+					<div class="services__container">
+						<div class="services__title title"><span>OUR SERVICES</span></div>
+					</div>
+				</div>
+				<div class="services__row">
+					<div class="services__column">
+						<div class="column__container">
+							<div class="services__body">
+								<div class="services__img">
+									<img src="img/services.png" alt="">
+								</div>
+								<div class="services__column-title">Web DEVELOPMENT</div>
+								<div class="services__column-text">We provide the best world class web
+									development service We provide the best world
+									class web development service</div>
+								<a href="#" class="services__column-button">MORE DETAILS</a>
+							</div>
+						</div>
+					</div>
+					<div class="services__column">
+						<div class="column__container">
+							<div class="services__body">
+								<div class="services__img">
+									<img src="img/services.png" alt="">
+								</div>
+								<div class="services__column-title">Web DEVELOPMENT</div>
+								<div class="services__column-text">We provide the best world class web
+									development service We provide the best world
+									class web development service</div>
+								<a href="#" class="services__column-button">MORE DETAILS</a>
+							</div>
+						</div>
+					</div>
+					<div class="services__column">
+						<div class="column__container">
+							<div class="services__body">
+								<div class="services__img">
+									<img src="img/services.png" alt="">
+								</div>
+								<div class="services__column-title">Web DEVELOPMENT</div>
+								<div class="services__column-text">We provide the best world class web
+									development service We provide the best world
+									class web development service</div>
+								<a href="#" class="services__column-button">MORE DETAILS</a>
+							</div>
+						</div>
+						<div class="services__button">
+							<a href="#"><img src="img/services_l.png" alt=""></a>
+							<a href="#"><img src="img/services_r.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="feedback">
+				<div class="feedback__row">
+					<div class="feedback__container">
+						<div class="feedback__title"><span>feedback</span></div>
+					</div>
+				</div>
+				<div class="feedback__row">
+					<div class="feedback__body">
+						<div class="feedback__text">It was always a pleasure
+							doing bussiness with them.
+							I love the quality of work.</div>
+						<div class="feedback__nav">
+							<a href="#" class="feedback__button"><img src="img/feedback_l.png" alt=""></a>
+							<div class="feedback__page">1/10</div>
+							<a href="#" class="feedback__button"><img src="img/feedback_r.png" alt=""></a>
+						</div>
+					</div>
+					<a href="#" class="feedback__person">
+						<div class="feedback__person__img"><img src="img/Model-1.png" alt=""></div>
+						<div class="feedback__person__num">01</div>
+						<div class="feedback__person__about">
+							<p class="feedback__name">Imran Khan</p>
+							<p class="feedback__job">CEO, Vesso</p>
+						</div>
+					</a>
+					<a href="#" class="feedback__person">
+						<div class="feedback__person__img"><img src="img/model-2.png" alt=""></div>
+						<div class="feedback__person__num">01</div>
+						<div class="feedback__person__about">
+							<p class="feedback__name">Imran Khan</p>
+							<p class="feedback__job">CEO, Vesso</p>
+						</div>
+					</a>
+					<a href="#" class="feedback__person">
+						<div class="feedback__person__img"><img src="img/model-3.png" alt=""></div>
+						<div class="feedback__person__num">01</div>
+						<div class="feedback__person__about">
+							<p class="feedback__name">Imran Khan</p>
+							<p class="feedback__job">CEO, Vesso</p>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="clients">
+				<div class="clients__header">
+					<div class="clients__container">
+						<div class="clients__title"><span>Clients</span></div>
+					</div>
+				</div>
+				<div class="clients__body">
+					<div class="clients__container">
+						<div class="clients__row">
+							<div class="clients__items">
+								<div class="clients__item"><img src="img/adobe.png" alt=""></div>
+								<div class="clients__item"><img src="img/hcl.png" alt=""></div>
+							</div>
+							<div class="clients__items">
+								<div class="clients__item"><img src="img/infosys.png" alt=""></div>
+								<div class="clients__item"><img src="img/invision.png" alt=""></div>
+							</div>
+						</div>
+						<div class="clients__row">
+							<div class="clients__items">
+								<div class="clients__item"><img src="img/cisco.png" alt=""></div>
+								<div class="clients__item"><img src="img/be.png" alt=""></div>
+							</div>
+							<div class="clients__items">
+								<div class="clients__item"><img src="img/Canva.png" alt=""></div>
+								<div class="clients__item"><img src="img/inst.png" alt=""></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="quote">
+				<div class="quote__container">
+					<div class="quote__body">
+						<div class="quote__title">Any Queries | Get a quote</div>
+						<div class="quote__text">If you have any questions or queries regarding our service or pricing don’t
+							worry
+							Our experts will call you.</div>
+					</div>
+					<form action="" class="quote__form">
+						<input type="text" value="Your name">
+						<input type="tel" value="Your number">
+						<button>Get a call</button>
+					</form>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__column">
+					<div class="footer__items">
+						<div class="footer__title">Product</div>
+						<div class="link"><a href="#">Cost & Governance</a></div>
+						<div class="link"><a href="#">Security & Complaince</a></div>
+						<div class="link"><a href="#">Product N</a></div>
+						<div class="link"><a href="#">Pricing & plans</a></div>
+					</div>
+					<div class="footer__items">
+						<div class="footer__title">LEARN</div>
+						<div class="link"><a href="#">Articles</a></div>
+						<div class="link"><a href="#">Register a demo</a></div>
+						<div class="link"><a href="#">Webinars</a></div>
+						<div class="link"><a href="#">FAQs</a></div>
+					</div>
+					<div class="footer__items">
+						<div class="footer__title">COMPANY</div>
+						<div class="link"><a href="#">About</a></div>
+						<div class="link"><a href="#">Careers</a></div>
+						<div class="link"><a href="#">Partners</a></div>
+						<div class="link"><a href="#">Contact</a></div>
+					</div>
+				</div>
+				<div class="footer__column">
+					<form action="" class="footer__form">
+						<input type="email" placeholder="Your email">
+						<button>Subscribe</button>
+					</form>
+					<div class="footer__social">
+						<img src="img/fbf.png" alt="">
+						<img src="img/twf.png" alt="">
+						<img src="img/g+f.png" alt="">
+						<img src="img/of.png" alt="">
+						<img src="img/bef.png" alt="">
+						<img src="img/instf.png" alt="">
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>
